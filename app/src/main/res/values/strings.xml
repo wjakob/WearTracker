@@ -1,5 +1,27 @@
 <resources>
-    <string name="app_name">template</string>
-    <string name="hello_karoo">Hello Karoo!</string>
-    <string name="extension_name">template</string>
+    <string name="app_name">WearTracker</string>
+    <string name="extension_name">WearTracker</string>
+
+    <string name="dt_chain">Chain Wear</string>
+    <string name="dt_chain_desc">Distance on current chain</string>
+    <string name="dt_chainring">Chainring Wear</string>
+    <string name="dt_chainring_desc">Chainring distance</string>
+    <string name="dt_cassette">Cassette Wear</string>
+    <string name="dt_cassette_desc">Total cassette distance</string>
+    <string name="dt_rd">RD Wear</string>
+    <string name="dt_rd_desc">Rear derailleur distance</string>
+    <string name="dt_fd">FD Wear</string>
+    <string name="dt_fd_desc">Front derailleur distance</string>
+    <string name="dt_front_brake">Front Brake Pads</string>
+    <string name="dt_front_brake_desc">Front brake pad distance</string>
+    <string name="dt_rear_brake">Rear Brake Pads</string>
+    <string name="dt_rear_brake_desc">Rear brake pad distance</string>
+    <string name="dt_front_tire">Front Tire</string>
+    <string name="dt_front_tire_desc">Front tire distance</string>
+    <string name="dt_rear_tire">Rear Tire</string>
+    <string name="dt_rear_tire_desc">Rear tire distance</string>
+    <string name="dt_front_sealant">Front Sealant</string>
+    <string name="dt_front_sealant_desc">Days since front sealant</string>
+    <string name="dt_rear_sealant">Rear Sealant</string>
+    <string name="dt_rear_sealant_desc">Days since rear sealant</string>
 </resources>

@@ -8,6 +8,7 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        mavenLocal()
         google()
         mavenCentral()
         // karoo-ext from Github Packages
@@ -21,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Karoo Extension Template"
+rootProject.name = "WearTracker"
 include("app")

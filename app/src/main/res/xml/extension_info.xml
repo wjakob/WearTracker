@@ -1,8 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ExtensionInfo
     displayName="@string/extension_name"
-    icon="@drawable/ic_launcher_foreground"
-    id="template-id"
+    icon="@drawable/ic_weartracker"
+    id="weartracker"
     scansDevices="false">
-    <!-- DataType ... -->
+    <DataType
+        description="@string/dt_chain_desc"
+        displayName="@string/dt_chain"
+        graphical="false"
+        icon="@drawable/ic_chain"
+        typeId="chain-wear" />
+    <DataType
+        description="@string/dt_chainring_desc"
+        displayName="@string/dt_chainring"
+        graphical="false"
+        icon="@drawable/ic_chainring"
+        typeId="chainring-wear" />
+    <DataType
+        description="@string/dt_cassette_desc"
+        displayName="@string/dt_cassette"
+        graphical="false"
+        icon="@drawable/ic_cassette"
+        typeId="cassette-wear" />
+    <DataType
+        description="@string/dt_rd_desc"
+        displayName="@string/dt_rd"
+        graphical="false"
+        icon="@drawable/ic_derailleur"
+        typeId="rd-wear" />
+    <DataType
+        description="@string/dt_fd_desc"
+        displayName="@string/dt_fd"
+        graphical="false"
+        icon="@drawable/ic_derailleur"
+        typeId="fd-wear" />
+    <DataType
+        description="@string/dt_front_brake_desc"
+        displayName="@string/dt_front_brake"
+        graphical="false"
+        icon="@drawable/ic_brake"
+        typeId="front-brake" />
+    <DataType
+        description="@string/dt_rear_brake_desc"
+        displayName="@string/dt_rear_brake"
+        graphical="false"
+        icon="@drawable/ic_brake"
+        typeId="rear-brake" />
+    <DataType
+        description="@string/dt_front_tire_desc"
+        displayName="@string/dt_front_tire"
+        graphical="false"
+        icon="@drawable/ic_tire"
+        typeId="front-tire" />
+    <DataType
+        description="@string/dt_rear_tire_desc"
+        displayName="@string/dt_rear_tire"
+        graphical="false"
+        icon="@drawable/ic_tire"
+        typeId="rear-tire" />
+    <DataType
+        description="@string/dt_front_sealant_desc"
+        displayName="@string/dt_front_sealant"
+        graphical="false"
+        icon="@drawable/ic_sealant"
+        typeId="front-sealant" />
+    <DataType
+        description="@string/dt_rear_sealant_desc"
+        displayName="@string/dt_rear_sealant"
+        graphical="false"
+        icon="@drawable/ic_sealant"
+        typeId="rear-sealant" />
 </ExtensionInfo>
