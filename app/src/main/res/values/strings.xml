@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">WearTracker</string>
-    <string name="extension_name">WearTracker</string>
+    <string name="app_name">Wear</string>
+    <string name="extension_name">Wear Tracker</string>
 
     <string name="dt_chain">Chain Wear</string>
     <string name="dt_chain_desc">Distance on current chain</string>
