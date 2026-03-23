@@ -29,8 +29,6 @@ data class BikeOffsets(
     // Max chain distance (meters) ever seen on each drivetrain component
     val chainringMaxChain: Double = 0.0,
     val cassetteMaxChain: Double = 0.0,
-    val rearDeraMaxChain: Double = 0.0,
-    val frontDeraMaxChain: Double = 0.0,
     // Sealant refresh timestamps (millis since epoch)
     val frontSealantDate: Long = 0,
     val rearSealantDate: Long = 0,
@@ -81,12 +79,6 @@ class WearTrackerRepository(context: Context) {
             offsets.copy(
                 chainringMaxChain = max(offsets.chainringMaxChain, chainWear),
                 cassetteMaxChain = max(offsets.cassetteMaxChain, chainWear),
-                rearDeraMaxChain = max(offsets.rearDeraMaxChain, chainWear),
-                frontDeraMaxChain = if (offsets.hasFrontDerailleur) {
-                    max(offsets.frontDeraMaxChain, chainWear)
-                } else {
-                    offsets.frontDeraMaxChain
-                },
                 chainOdo = odometer - resetMeters,
             )
         }
@@ -114,7 +106,6 @@ class WearTrackerRepository(context: Context) {
         updateBike(bikeId) { offsets ->
             offsets.copy(
                 rearDeraOdo = odometer - resetMeters,
-                rearDeraMaxChain = 0.0,
             )
         }
     }
@@ -123,7 +114,6 @@ class WearTrackerRepository(context: Context) {
         updateBike(bikeId) { offsets ->
             offsets.copy(
                 frontDeraOdo = odometer - resetMeters,
-                frontDeraMaxChain = 0.0,
             )
         }
     }

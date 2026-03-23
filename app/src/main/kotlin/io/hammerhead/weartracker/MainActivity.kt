@@ -239,13 +239,11 @@ fun BikeSection(
             )
 
             // Rear derailleur
-            val rdOldestChain = max(offsets.rearDeraMaxChain, currentChainWear)
             ComponentRow(
                 iconRes = R.drawable.ic_derailleur,
                 label = "Rear derailleur",
                 value = formatDistance(odo - offsets.rearDeraOdo, isImperial, numberFormat),
                 unit = unitLabel,
-                subtitle = "Oldest chain: ${formatDistance(rdOldestChain, isImperial, numberFormat)} $unitLabel",
                 onReplace = { resetMeters ->
                     repository.replaceRearDera(bike.id, odo, resetMeters)
                 },
@@ -254,13 +252,11 @@ fun BikeSection(
 
             // Front derailleur (only when detected)
             if (offsets.hasFrontDerailleur) {
-                val fdOldestChain = max(offsets.frontDeraMaxChain, currentChainWear)
                 ComponentRow(
                     iconRes = R.drawable.ic_derailleur,
                     label = "Front derailleur",
                     value = formatDistance(odo - offsets.frontDeraOdo, isImperial, numberFormat),
                     unit = unitLabel,
-                    subtitle = "Oldest chain: ${formatDistance(fdOldestChain, isImperial, numberFormat)} $unitLabel",
                     onReplace = { resetMeters ->
                         repository.replaceFrontDera(bike.id, odo, resetMeters)
                     },
