@@ -7,7 +7,7 @@
     "iconUrl": "https://raw.githubusercontent.com/wjakob/WearTracker/master/icon.png",
     "developer": "Wenzel Jakob",
     "description": "Track wear and mileage on bicycle components including chain, cassette, chainring, derailleurs, brake pads, tires, and sealant age.",
-    "releaseNotes": "Initial release",
+    "releaseNotes": "Switch app package to org.wjakob.weartracker",
     "screenshotUrls": [
         "https://raw.githubusercontent.com/wjakob/WearTracker/master/screenshot.png"
     ],
