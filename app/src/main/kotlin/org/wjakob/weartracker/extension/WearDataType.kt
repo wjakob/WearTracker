@@ -1,9 +1,9 @@
-package io.hammerhead.weartracker.extension
+package org.wjakob.weartracker.extension
 
-import io.hammerhead.weartracker.BikeOffsets
-import io.hammerhead.weartracker.WearTrackerRepository
-import io.hammerhead.weartracker.WearTrackerState
-import io.hammerhead.weartracker.R
+import org.wjakob.weartracker.BikeOffsets
+import org.wjakob.weartracker.WearTrackerRepository
+import org.wjakob.weartracker.WearTrackerState
+import org.wjakob.weartracker.R
 import io.hammerhead.karooext.KarooSystemService
 import io.hammerhead.karooext.extension.DataTypeImpl
 import io.hammerhead.karooext.internal.Emitter

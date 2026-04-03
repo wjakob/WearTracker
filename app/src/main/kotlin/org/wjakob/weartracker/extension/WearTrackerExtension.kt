@@ -1,6 +1,6 @@
-package io.hammerhead.weartracker.extension
+package org.wjakob.weartracker.extension
 
-import io.hammerhead.weartracker.WearTrackerApplication
+import org.wjakob.weartracker.WearTrackerApplication
 import io.hammerhead.karooext.KarooSystemService
 import io.hammerhead.karooext.extension.KarooExtension
 import io.hammerhead.karooext.models.Bikes

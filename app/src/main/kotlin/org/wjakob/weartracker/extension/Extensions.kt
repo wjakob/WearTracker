@@ -1,4 +1,4 @@
-package io.hammerhead.weartracker.extension
+package org.wjakob.weartracker.extension
 
 import io.hammerhead.karooext.KarooSystemService
 import io.hammerhead.karooext.models.KarooEvent

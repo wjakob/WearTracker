@@ -1,4 +1,4 @@
-package io.hammerhead.weartracker
+package org.wjakob.weartracker
 
 import android.app.Application
 import timber.log.Timber

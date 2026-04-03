@@ -1,4 +1,4 @@
-package io.hammerhead.weartracker
+package org.wjakob.weartracker
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -46,8 +46,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import io.hammerhead.weartracker.extension.WearDataType
-import io.hammerhead.weartracker.extension.consumerFlow
+import org.wjakob.weartracker.extension.WearDataType
+import org.wjakob.weartracker.extension.consumerFlow
 import io.hammerhead.karooext.KarooSystemService
 import io.hammerhead.karooext.models.Bikes
 import io.hammerhead.karooext.models.UserProfile

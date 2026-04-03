@@ -1,9 +1,9 @@
 {
     "label": "Wear Tracker",
-    "packageName": "io.hammerhead.weartracker",
-    "latestApkUrl": "https://github.com/wjakob/WearTracker/releases/download/v1.0/app-release.apk",
-    "latestVersion": "1.0",
-    "latestVersionCode": 1,
+    "packageName": "org.wjakob.weartracker",
+    "latestApkUrl": "https://github.com/wjakob/WearTracker/releases/download/v1.1/app-release.apk",
+    "latestVersion": "1.1",
+    "latestVersionCode": 2,
     "iconUrl": "https://raw.githubusercontent.com/wjakob/WearTracker/master/icon.png",
     "developer": "Wenzel Jakob",
     "description": "Track wear and mileage on bicycle components including chain, cassette, chainring, derailleurs, brake pads, tires, and sealant age.",

@@ -5,7 +5,7 @@
 -keepclasseswithmembers class kotlinx.serialization.json.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
--keepclassmembers @kotlinx.serialization.Serializable class io.hammerhead.weartracker.** {
+-keepclassmembers @kotlinx.serialization.Serializable class org.wjakob.weartracker.** {
     *** Companion;
     *** INSTANCE;
     kotlinx.serialization.KSerializer serializer(...);

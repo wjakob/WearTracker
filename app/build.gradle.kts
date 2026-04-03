@@ -6,15 +6,15 @@ plugins {
 }
 
 android {
-    namespace = "io.hammerhead.weartracker"
+    namespace = "org.wjakob.weartracker"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "io.hammerhead.weartracker"
+        applicationId = "org.wjakob.weartracker"
         minSdk = 23
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
     }
 
     buildTypes {
